@@ -1,5 +1,4 @@
-console.log('App initialize successfully');
-
-process.exit(0);
-
-export default {};
+export default function hello(): string {
+  console.log('Hello World');
+  return 'Hello World';
+}
